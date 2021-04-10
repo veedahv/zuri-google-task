@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -59,7 +57,6 @@ a:hover {
 
 .google-img-box {
     padding: 0px 80px;
-    /* max-width: 310px; */
     max-width: 400px;
     margin: auto;
 }
@@ -74,13 +71,13 @@ a:hover {
 
 .search-input-box {
     margin: 25px auto;
-    max-width: 750px;
+    max-width: 500px;
     position: relative;
 }
 
 .search-input {
     border-radius: 40px;
-    padding: 10px 50px;
+    padding: 15px 50px;
     width: 100%;
     outline: none;
     border: 1px solid #bcc3c7;
@@ -137,11 +134,13 @@ a:hover {
     border: none;
     padding: 10px 15px;
     background-color: #F8F9FA;
+    color: #202124;
 }
 
 .lang-links {
     padding: 2px 5px;
     font-size: 13px;
+    color: #1a0dab;
 }
 
 .nav-links {
