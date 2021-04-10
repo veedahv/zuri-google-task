@@ -1,8 +1,6 @@
-# capstone-project
+# Google Recreate
 
-My final project for the frontend micro degree at ustacky
-
-I built an ecommerce website and integrated paystack on the site
+I recreated Google's page
 
 Here is the demo link:
-https://e-millenial.netlify.app
+https://zuri-google-task.netlify.app/
