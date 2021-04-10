@@ -4,8 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Rubik', sans-serif; */
-    /* border: 2px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -37,7 +36,17 @@ a:hover {
 }
 
 .dots {
-    width: 24px;
+    width: 31px;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.dots svg {
+    fill: #5F6368;
+}
+
+.dots:hover {
+    background-color: #F8F9FA;
 }
 
 .user {
