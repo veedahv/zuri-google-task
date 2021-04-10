@@ -71,7 +71,7 @@ a:hover {
 
 .search-input-box {
     margin: 25px auto;
-    max-width: 500px;
+    max-width: 550px;
     position: relative;
 }
 
@@ -83,6 +83,12 @@ a:hover {
     border: 1px solid #bcc3c7;
     background: transparent;
     position: relative;
+    outline: none;
+}
+
+.search-input:hover {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
+    border: none;
 }
 
 .pos-left {
