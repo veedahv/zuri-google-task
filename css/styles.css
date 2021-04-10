@@ -31,6 +31,7 @@ a:hover {
 
 .nav-links {
     color: #5F6368;
+    padding: 2px 8px;
 }
 
 .dots {
@@ -46,6 +47,20 @@ a:hover {
 
 .user {
     border-radius: 50%;
+}
+
+.user-link {
+    padding: 2px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-link:hover {
+    background-color: #F8F9FA;
 }
 
 .main {
@@ -111,6 +126,10 @@ a:hover {
     width: 20px;
 }
 
+.pos-right:hover {
+    cursor: pointer;
+}
+
 .links {
     display: flex;
     justify-content: center;
@@ -147,10 +166,6 @@ a:hover {
     padding: 2px 5px;
     font-size: 13px;
     color: #1a0dab;
-}
-
-.nav-links {
-    padding: 2px 8px;
 }
 
 .footer {
