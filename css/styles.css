@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Rubik', sans-serif; */
+    /* border: 2px solid red; */
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav {
+    /* text-align: right; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.nav-links {
+    /* text-decoration: none; */
+    color: #5F6368;
+}
+
+.dots {
+    width: 24px;
+}
+
+.user {
+    border-radius: 50%;
+}
+
+.main {
+    text-align: center;
+}
+
+.search-input-box {
+    /* border-radius: 20px; */
+    margin: 25px auto;
+    max-width: 760px;
+    position: relative;
+}
+
+.search-input {
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #bcc3c7;
+    background: transparent;
+    position: relative;
+}
+
+.pos-left {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    width: 20px;
+    transform: translateY(-50%);
+}
+
+.pos-right {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 20px;
+}
+
+.btn-box {
+    margin-bottom: 25px;
+}
+
+.footer-links {
+    padding: 2px 12px;
+}
+
+.lang-links {
+    padding: 2px 5px;
+}
+
+.nav-links {
+    padding: 2px 8px;
+}
+
+.btn {
+    border: none;
+    padding: 10px 15px;
+    background-color: #F8F9FA;
+}
+
+.footer {
+    background-color: #F2F2F2;
+}
+
+.footer-top {
+    border-bottom: 1px solid #DADCE0;
+}
+
+.container,
+.country {
+    max-width: 1000px;
+    padding: 15px;
+    margin: auto;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.neutral {
+    /* text-align: center; */
+    margin-bottom: 20px;
+    color: inherit;
+}
+
+.leaf-img {
+    height: 14px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links {
+    color: inherit;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 786px) {
+
+}
